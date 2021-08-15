@@ -1,0 +1,31 @@
+{
+  "name": "react-note",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "yarn run dev",
+    "dev": "yarn run dumi dev --port=8020",
+    "build": "yarn run dumi build",
+    "deploy": "bash ./scripts/deploy.sh",
+    "lint:md": "lint-md *.md",
+    "lint:fix": "lint-md *.md --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsejx/React-GuideBook.git"
+  },
+  "keywords": [
+    "css",
+    "less",
+    "sass",
+    "post-css"
+  ],
+  "author": "tsejx",
+  "license": "MIT",
+  "homepage": "https://github.com/tsejx/React-GuideBook#readme",
+  "devDependencies": {
+    "dumi": "^1.0.34",
+    "lint-md": "^0.1.1"
+  }
+}
