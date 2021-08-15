@@ -14,7 +14,7 @@ npm run build
 # git init
 # git pull https://github.com/lwj201606/react-note.git gh-pages
 # cp -r ../../dist/* .
-
+ 
 # commit and push changes
 git init
 git add -A
