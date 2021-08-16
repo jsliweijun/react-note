@@ -16,7 +16,7 @@ const config = {
     null,
     {
       title: 'Github',
-      path: '',
+      path: 'https://lwj201606.github.io/react-note/',
     },
   ],
 };
