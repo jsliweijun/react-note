@@ -16,13 +16,13 @@ const config = {
     null,
     {
       title: 'Github',
-      path: 'https://lwj201606.github.io/react-note/',
+      path: 'https://github.com/lwj201606/react-note',
     },
   ],
 };
 
-if (process.env.NODE_ENV !== 'development') {
-  config.ssr = {};
-}
+// if (process.env.NODE_ENV !== 'development') {
+//   config.ssr = {};
+// }
 
 export default config;
